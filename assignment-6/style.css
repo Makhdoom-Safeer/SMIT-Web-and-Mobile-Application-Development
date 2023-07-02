@@ -1,0 +1,37 @@
+body{
+    background-color: #E3E2D7;
+}
+
+h1, h2 , h3, h4, h5, h6{
+    color: #9A1750;
+}
+
+p, li{
+    color: #5D001E;
+}
+
+div{
+    text-align: center;
+}
+
+#chessboard-color1
+{
+  background-color: #EEEED2;
+}
+
+#chessboard-color2
+{
+  background-color: #769656;
+}
+
+#lower-alpha-list{
+    list-style: lower-alpha;
+}
+
+#lower-roman-list{
+    list-style: lower-roman;
+}
+
+#bold-text{
+    font-weight: bold;
+}

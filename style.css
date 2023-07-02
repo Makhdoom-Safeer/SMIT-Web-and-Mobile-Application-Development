@@ -1,0 +1,27 @@
+body{
+    background-color: #5CDB95;
+}
+
+h1, h2 , h3, h4, h5, h6{
+    color: #05386B;
+}
+
+p, li{
+    color: #05386B;
+}
+
+div{
+    text-align: center;
+}
+
+#lower-alpha-list{
+    list-style: lower-alpha;
+}
+
+#lower-roman-list{
+    list-style: lower-roman;
+}
+
+#bold-text{
+    font-weight: bold;
+}

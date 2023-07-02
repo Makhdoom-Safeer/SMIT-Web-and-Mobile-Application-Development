@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<title>Form Fill</title>
+</head>
+
+<body>
+    <h1>My Feedback Form</h1>
+    <form>
+        <ul>
+            <li>Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Username" size="30" maxlength="30"/></li>
+            <li>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="Email" size="30" maxlength="30"/></li>
+            <li>Password: <input type="password" name="Password" size="30" maxlength="30"/></li>
+            <br>
+            <li>Please check all the emotions that apply to you:
+                <ul>
+                    <li>Angry<input type="checkbox" name="emotions" value="angry"/></li>
+                    <li>Sad<input type="checkbox" name="emotions" value="sad"/></li>
+                    <li>Happy<input type="checkbox" name="emotions" value="happy"/></li>
+                    <li>Ambivalent<input type="checkbox" name="emotions" value="happy"/></li>
+                </ul>
+            </li>
+            <br>
+            <li>How satisfied were you with our services?
+                <ul>
+                    <li>Very satisfied<input type="radio" name="services" value="very-satisfied"/></li>
+                    <li>Satisfied<input type="radio" name="services" value="satisfied"/></li>
+                    <li>Didn't cared<input type="radio" name="services" value="angry"/></li>
+                    <li>Dissatisfied<input type="radio" name="services" value="angry"/></li>
+                    <li>Very dissatisfied<input type="radio" name="services" value="angry"/></li>
+                </ul>
+            </li>
+            <br>
+            <li>Further comments:
+                <br>
+                <textarea name="comments" cols="42" rows="5"></textarea>
+            </li>
+            <br>
+            <li>Photo:<input type="file" value="Browse"/></li>
+            <br>
+            <li>Location visited:
+                <select name="location">
+                    <option value="" selected>Select location</option>
+                    <option value="karachi">Karachi</option>
+                    <option value="lahore">Lahore</option>
+                    <option value="islamabad">Islamabad</option>
+                </select>
+            </li>
+            <br>
+            <li>Our services used:
+                <br>
+                <select name="services" size="3" multiple="multiple">
+                    <option value="service1">Service 1</option>
+                    <option value="service2">Service 2</option>
+                    <option value="service3">Service 3</option>
+                    <option value="service4">Service 4</option>
+                    <option value="service4">Service 5</option>
+                </select>
+            </li>
+        </ul>
+        <br>
+        <input type="image" src="images/submit-button.png" height="50"/>
+    </form>
+</body>
+</html>
