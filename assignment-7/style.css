@@ -1,0 +1,39 @@
+@font-face{
+    font-family: 'KirimomiSwash';
+    src: url('fonts/KirimomiSwaIt.otf');
+}
+
+body{
+    background-image: url(images/pexels-baskin-creative-studios-1766838.jpg);
+    background-size: cover;
+}
+
+.poemmain{
+    text-align: center;
+    color: #1b4110;
+    background-color: #c2dcc1;
+    padding: 30px;
+    width: 48%;
+    border: 5px solid #1b4110;
+    margin: 40px auto;
+}
+
+.poemtitle{
+    font-family: KirimomiSwash;
+    font-size: 60px;
+}
+
+.poemauthor{
+    font-family: KirimomiSwash;
+    font-size: 20px;
+}
+
+.poem{
+    font-family: KirimomiSwash;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.backbutton{
+    text-align: center;
+}
