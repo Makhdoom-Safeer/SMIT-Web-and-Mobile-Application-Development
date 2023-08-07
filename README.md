@@ -1,10 +1,10 @@
-# Updated 24th/July/2023
-Assignment 9 (CSS Assignment 3) added!
+# Updated 7th/August/2023
+CSS Assignment 4 & JS Assignemnt 1 (Incomplete) added!
 
-## Task 1 - Grumpy Bear Town Club
+## CSS Assignment 4
 https://makhdoom-safeer.netlify.app/assignment-9-1/
 
-## Task #2 - Pepsi
+## JS Assignemnt 1 (Incomplete)
 https://makhdoom-safeer.netlify.app/assignment-9-2/
 
 # SMIT Web & Mobile Application Development
