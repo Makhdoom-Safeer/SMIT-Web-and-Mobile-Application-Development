@@ -2,11 +2,17 @@ body{
     background-color: #5CDB95;
 }
 
-h1, h2 , h3, h4, h5, h6{
+h1{
     color: #05386B;
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 48px;
+}
+
+h2
+{
+    color: #05386B;
+    font-family: Arial, sans-serif;
 }
 
 p, li{

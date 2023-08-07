@@ -16,7 +16,11 @@
     src: url(fonts/Roboto.woff2);
 }
 
-
+@font-face
+{
+    font-family:Helvetica Neue WGL;
+    src:url(fonts/Helvetica-Neue-WGL.woff)
+}
 
 .heading
 {
@@ -36,18 +40,27 @@ margin:0;
     margin-top: 0px;
 }
 
-#collapsibleNavId a{
-    font-size: 18px;
-    color: white;
-}
-
 #collapsibleNavId ul > li{
-    margin-left: 20px;
+    margin-left: 21px;
 }
 
 .nav-link
 {
     font-weight: bold;
+    font: normal normal normal 18px/22px Helvetica Neue WGL;
+    color: white;
+}
+
+.nav-link img{
+    margin-left: 15px;
+}
+
+.nav-link:hover{
+    color: #0dcaf0;
+}
+
+.nav-link img:hover{
+    color: #0dcaf0;
 }
 
 .btn
@@ -463,10 +476,7 @@ line-height: 15px;
 
 .section-7 p
 {
-    font-weight: 300 !important;
-    font-size: 22px;
-    line-height: 43px;
-    font-family: Roboto;
+    font: normal normal 300 22px/43px Roboto;
     letter-spacing: 1.1px;
     color: #fff;
     opacity: 1;
