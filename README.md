@@ -2,10 +2,10 @@
 CSS Assignment 4 & JS Assignemnt 1 (Incomplete) added!
 
 ## CSS Assignment 4
-https://makhdoom-safeer.netlify.app/assignment-9-1/
+https://makhdoom-safeer.netlify.app/css-assignment-4/
 
 ## JS Assignemnt 1 (Incomplete)
-https://makhdoom-safeer.netlify.app/assignment-9-2/
+https://makhdoom-safeer.netlify.app/java-assignment-1/
 
 # SMIT Web & Mobile Application Development
 All assignments done for SMIT's Web & Mobile Application Development program:
