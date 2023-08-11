@@ -12,6 +12,13 @@ ol > li
     line-height: 1.5;
 }
 
+ul > li
+{
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
 p{
     font-size: 16px;
     font-style: normal;

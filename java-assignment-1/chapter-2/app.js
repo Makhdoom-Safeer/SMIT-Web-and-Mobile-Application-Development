@@ -40,7 +40,13 @@ function task_7()
     alert("I am trying to learn from the Book "+book)
 }
 
+function task_8()
+{
+    document.write("Yah! I can write HTML content through JavaScript")
+}
+
 function task_9()
 {
     alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬")
+    document.write("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬")
 }
