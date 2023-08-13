@@ -1,5 +1,5 @@
 # Updated 7th/August/2023
-CSS Assignment 4 & JS Assignemnt 1 (Incomplete) added!
+CSS Assignment 4 & JS Assignemnt 1 added!
 
 ## CSS Assignment 4
 https://makhdoom-safeer.netlify.app/css-assignment-4/
