@@ -4,7 +4,7 @@ JavaScript Assignemnt 2 added!
 https://makhdoom-safeer.netlify.app/javascript-assignment-2/
 
 # Updated 7th/August/2023
-CSS Assignment 4 & JS Assignemnt 1 added!
+CSS Assignment 4 & JavaScript Assignemnt 1 added!
 
 ## CSS Assignment 4
 https://makhdoom-safeer.netlify.app/css-assignment-4/
