@@ -1,0 +1,610 @@
+body{
+    background-color: black;
+    color: #FFFFFF;
+}
+
+iframe{
+    width: 525px;
+    height: 375px;
+    background-color: white;
+}
+
+#html-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    padding: 2px 30px;
+    width: 100%;
+    height: 100px;
+}
+
+.inblock{
+    display: inline-block;
+    margin-left: 80px;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.menu{
+    margin-left: 120px;
+}
+
+.menu>li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Section 2 */
+
+.section2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px !important;
+    margin-top: 10px !important;
+    display: block;
+    width: 100%;
+    padding: 0px 15px 0px 15px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative;
+    overflow: hidden;
+}
+
+.section2>h2{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.section2>p{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+}
+
+.section2 span.logo-text{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.brand-list{
+    padding: 30px;
+    width:100%;
+}
+
+.brand-list>li{
+    display: inline-block;
+    margin: 30px;
+}
+
+.brand-btn{
+    display: block;
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 24px;
+    background-color: black;
+}
+
+/* Section 3 */
+
+.section3{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/bg1.webp);
+    background-color: rgb(15, 15, 15);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    padding: 90px;
+}
+
+.section3 p.toptext{
+    text-align: center;
+}
+
+.section3 button {
+    margin-left: 0px;
+}
+
+.section3 h2{
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.section3 p{
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 48px;
+    margin-left: 0px;
+}
+
+.section3 p > a{
+    text-decoration: none;
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 48px;
+}
+
+.section3 span.logo-text{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.section3 small{
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.section3 span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Section 4 */
+
+.section4{
+    display: block;
+    background-image: url(images/bg2.webp);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 90px;
+}
+
+.section4 span.logo-text{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.section4 p {
+    height: 30px;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+}
+
+.section4 p > a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.section4 h2{
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.section4 h3 span.logo-text {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.section4 h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+    font-family: 'apercu';
+}
+
+.section4 small {
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 24px;
+}
+
+/* Section 5 */
+
+.section5{
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    padding: 32px 0px;
+}
+
+.section5 span.logo-text{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.section5 h2{
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.section5 h3 span.logo-text {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section5 h3 {
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.section5 small {
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.section5 p {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+.section5 p a {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.section5 img{
+    text-align: center;
+    width: 100%;
+}
+
+.section5 button {
+    margin-left: 0px;
+}
+
+.section5 span.logo-text-hold-second {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Section 6 */
+
+.section6{
+    text-align: center;
+    background-image: url(images/bg3.webp);
+    background-repeat: no-repeat;
+    padding: 90px;
+}
+
+.section6 h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.section6 h2 > small{
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 60px;
+    color: #FFFFFF;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+.section6 p {
+    font-family: 'FuturaBlack BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.section6 small {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.section6 h2 span.logo-text{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.section6 h4{
+    font-family: 'FuturaBlack BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.section6 img {
+    display: block;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.section6 h4 span.logo-text {
+    font-weight: 600;
+    margin-right: 8px;
+    font-size: 24px;
+    display: block;
+    color: #000000;
+}
+
+/* Section 7 */
+
+.section7{
+    text-align: center;
+    padding: 32px;
+}
+
+.section7 h3 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+}
+
+/* Footer */
+footer{
+    color: #fff;
+    float: left;
+    width: 100%;
+    padding: 70px 15px 0px 15px;
+    background: rgba(255, 255, 255, 0.06);
+    position: relative;
+    background-image: url(images/bg1.webp);
+    background-repeat: no-repeat;
+}
+
+.footer-logo{
+    margin: 0px !important;
+    width: 140px !important;
+    padding-bottom: 24px;
+}
+
+footer p{
+    text-align: justify;
+    margin: 0px !important;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    text-align: left;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration-line: none;
+}
+
+footer p > a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.footer-info{
+    width: 100%;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.footer-info > li{
+    display: inline-block;
+    
+}
+
+footer h3 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+ul.footer-info a{
+    width: 100%;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+@font-face{
+    font-family:'futurak';
+     src: url('https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf') format('truetype'),
+     url('https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf') format('ttf');
+     font-weight: normal;
+     font-style: normal;
+     font-variant-ligatures: no-common-ligatures;
+   }
+   @font-face{
+    font-family:'apercu';
+     src: url('https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf') format('opentype'),
+     url('https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf') format('otf');
+     font-weight: normal;
+     font-style: normal;
+     font-variant-ligatures: no-common-ligatures;
+   }
+   @font-face{
+    font-family:'apercu';
+     src: url('https://staging.tossdown.site/assets/theme_one/fonts/apercu/apercumedium.otf') format('opentype'),
+     url('https://staging.tossdown.site/assets/theme_one/fonts/apercu/apercumedium.otf') format('otf');
+     font-weight: 400;
+     font-style: normal;
+     font-variant-ligatures: no-common-ligatures;
+   }
+   @font-face{
+    font-family:'apercu';
+     src: url('https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf') format('opentype'),
+     url('https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf') format('otf');
+     font-weight: normal;
+     font-style: normal;
+     font-variant-ligatures: no-common-ligatures;
+   }
+   @font-face{
+    font-family:'butler';
+     src: url('https://staging.tossdown.site/assets/theme_one/fonts/butlerbold/butlerbold.otf') format('opentype'),
+     url('https://staging.tossdown.site/assets/theme_one/fonts/butlerbold/butlerbold.otf') format('otf');
+     font-weight: normal;
+     font-style: normal;
+     font-variant-ligatures: no-common-ligatures;
+   }
