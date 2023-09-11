@@ -1,10 +1,6 @@
 function task_1()
 {
-    var firstName = prompt("Enter first name")
-    var lastName = prompt("Enter last name")
-    var fullName = firstName + " " + lastName
-
-    alert("Welcome" + " " + fullName)
+    
 }
 
 function task_2()

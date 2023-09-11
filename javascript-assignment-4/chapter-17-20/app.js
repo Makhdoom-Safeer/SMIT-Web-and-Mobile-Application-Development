@@ -115,6 +115,50 @@ function task_7()
     }
 }
 
+function task_8()
+{
+    var A = [24, 53, 78, 91, 12]
+    var largest_number
+
+    for (i = 0; i < A.length; i++)
+    {
+
+        if (A[i] > A[i + 1] && A[i + 1] !== [""])
+        {
+            largest_number = A[i]
+        }
+
+        else if (A[i] < A[i + 1] && A[i + 1] !== [""])
+        {
+            largest_number = A[i + 1]
+        }
+    }
+    
+    alert("The largest number is " + largest_number)
+}
+
+function task_9()
+{
+    var A = [24, 53, 78, 91, 12]
+    var smallest_number
+
+    for (i = 0; i < A.length; i++)
+    {
+
+        if (A[i] < A[i + 1] && A[i + 1] !== [""])
+        {
+            smallest_number = A[i]
+        }
+
+        else if (A[i + 1] < A[i] && A[i + 1] !== [""])
+        {
+            smallest_number = A[i + 1]
+        }
+    }
+    
+    alert("The smallest number is " + smallest_number)
+}
+
 function task_10()
 {
     for (var i = 1; i <= 20; i++)
