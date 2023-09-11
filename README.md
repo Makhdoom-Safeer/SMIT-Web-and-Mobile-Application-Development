@@ -1,10 +1,10 @@
 # Updated 11th/September/2023
-JavaScript Assignemnt 5 added!
+JavaScript Assignemnt 5 added (Half complete)!
 
 https://makhdoom-safeer.netlify.app/javascript-assignment-5/
 
 # Updated 4th/September/2023
-JavaScript Assignemnt 4 added!
+JavaScript Assignemnt 4 added (90% Complete)!
 
 https://makhdoom-safeer.netlify.app/javascript-assignment-4/
 
