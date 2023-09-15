@@ -40,14 +40,14 @@ function task_3()
 function task_4()
 {
     var dice = Math.random()
-    dice = Math.floor((dice * 6) + 1)
-    alert(dice)
+    dice = Math.ceil((dice * 6))
+    alert("random dice value:" + " " + dice)
 }
 
 function task_5()
 {
     var coin = Math.random()
-    coin = Math.floor((coin * 2) + 1)
+    coin = Math.ceil((coin * 2))
 
     if (coin === 2)
     {
@@ -64,7 +64,30 @@ function task_5()
 function task_6()
 {
     var random_number = Math.random()
-    random_number = Math.floor((random_number * 100) + 1)
+    random_number = Math.ceil((random_number * 100))
 
     alert("random number between 1 & 100:" + " " + random_number)
+}
+
+
+// Incomplete
+function task_7()
+{
+    
+}
+
+function task_8()
+{
+    var random_value = Math.ceil(Math.random() * 10)
+    var user_value = +prompt("Enter a number between 1 and 10")
+
+    if (user_value === random_value)
+    {
+        alert("Congratulations!")
+    }
+
+    else
+    {
+        alert("Try again!")
+    }
 }

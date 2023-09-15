@@ -113,8 +113,7 @@ function task_12()
 {
     var num = 35.36
     document.write("Number:" + " " + num + "<br>")
-    num_to_str = toString(num)
-    document.write("Result:" + " " + num_to_str + "<br>")
+    num_to_str = num.toString()
     num_to_str = num_to_str.replace(".", "")
     document.write("Result:" + " " + num_to_str + "<br>")
 }
@@ -154,6 +153,11 @@ function task_14()
     }
 }
 
+function task_15()
+{
+
+}
+
 function task_16()
 {
     var university = "University of Karachi"
@@ -166,10 +170,15 @@ function task_16()
 
 }
 
-function task_17()
+function task_17() //incomplete
 {
     var user_input = prompt()
 
     document.write("User input:" + " " + user_input + "<br>")
     document.write("Last character of input:" + " " + user_input[user_input.lastIndexOf()] + "<br>")
+}
+
+function task_18()
+{
+
 }
