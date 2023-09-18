@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Assignment #7 - Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Javascript Assignment #7 - Calculator</h1>
+
+    <div class="container" id="calculator">
+            <div class="row" id="display">
+                <input type="text" id="screen" readonly>
+            </div>
+            <div class="row" id="buttons">
+                <button id="clr" onclick = "clr()">AC</button>
+                <button id="del" onclick = "del()">DE</button>
+                <button id="decimal"  onclick = "decimal()">.</button>
+                <button id="division" onclick = "division()">/</button>
+            </div>
+            <div class="row" id="buttons">
+                <button id="seven" onclick = "seven()">7</button>
+                <button id="eight" onclick = "eight()">8</button>
+                <button id="nine" onclick = "nine()">9</button>
+                <button id="multiplication" onclick = "multiplication()">*</button>
+            </div>
+            <div class="row" id="buttons">
+                <button id="four" onclick = "four()">4</button>
+                <button id="five" onclick = "five()">5</button>
+                <button id="six" onclick = "six()">6</button>
+                <button id="subtraction" value = "-" onclick = "subtraction()">-</button>
+            </div>
+            <div class="row" id="buttons">
+                <button id="one" onclick = "one()">1</button>
+                <button id="two" onclick = "two()">2</button>
+                <button id="three" onclick = "three()">3</button>
+                <button id="addition" onclick = "addition()">+</button>
+            </div>
+            <div class="row" id="buttons">
+                <button id="double_zero" onclick = "double_zero()">00</button>
+                <button id="zero" onclick = "zero()">0</button>
+                <button id="answer" onclick = "answer()">=</button>
+            </div>
+    </div>
+</body>
+</html>
