@@ -67,7 +67,7 @@ function addition()
         document.getElementById("screen").value[screen_length - 1] === "/" ||
         document.getElementById("screen").value[screen_length - 1] === ".")
     {
-        document.getElementById("screen").value += ""
+        document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1) + "+"
     }
 
     else if (document.getElementById("screen").value === "")
@@ -91,7 +91,7 @@ function subtraction()
         document.getElementById("screen").value[screen_length - 1] === "/" ||
         document.getElementById("screen").value[screen_length - 1] === ".")
     {
-        document.getElementById("screen").value += ""
+        document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1) + "-"
     }
 
     else if (document.getElementById("screen").value === "")
@@ -115,7 +115,7 @@ function multiplication()
         document.getElementById("screen").value[screen_length - 1] === "/" ||
         document.getElementById("screen").value[screen_length - 1] === ".")
     {
-        document.getElementById("screen").value += ""
+        document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1) + "*"
     }
 
     else if (document.getElementById("screen").value === "")
@@ -139,7 +139,7 @@ function division()
         document.getElementById("screen").value[screen_length - 1] === "/" ||
         document.getElementById("screen").value[screen_length - 1] === ".")
     {
-        document.getElementById("screen").value += ""
+        document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1) + "/"
     }
 
     else if (document.getElementById("screen").value === "")
@@ -163,7 +163,7 @@ function decimal()
         document.getElementById("screen").value[screen_length - 1] === "/" ||
         document.getElementById("screen").value[screen_length - 1] === ".")
     {
-        document.getElementById("screen").value += ""
+        document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1) + "."
     }
 
     else
@@ -181,7 +181,7 @@ function clr()
 
 function del()
 {
-    document.getElementById("screen").value = document.getElementById("screen").value.toString().slice(0, -1)
+    document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1)
 }
 
 function answer()
@@ -195,7 +195,7 @@ function answer()
             document.getElementById("screen").value[screen_length - 1] === "*" ||
             document.getElementById("screen").value[screen_length - 1] === "/")
         {
-            document.getElementById("screen").value = document.getElementById("screen").value.toString().slice(0, -1)
+            document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1)
         }
     }
     document.getElementById("screen").value = eval(document.getElementById("screen").value)
