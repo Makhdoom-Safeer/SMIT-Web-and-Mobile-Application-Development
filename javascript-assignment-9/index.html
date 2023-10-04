@@ -1,4 +1,4 @@
-!<!doctype html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -18,12 +18,36 @@
 <body>
   
   <main>
-        <h1>Javascript Assignment #9 - Post App (Incomplete)</h1>
+        <h1>Javascript Assignment #9 - Post App</h1>
     
         <div class="container" id="app">
+          
+          <div id="user">
+            <img src="images/user.png" alt="" width="60px" id="user-image">
+            <p id="user-name">Makhdoom Safeer Muhammad</p>
+          </div>
+
+          <div id="text-container">
+            <textarea name="" id="text" placeholder="What is happening?!"></textarea>
+          </div>
             
+          <div id="buttons">
+            <button id="white-theme" onclick="white()"></button>
+            <button id="violet-theme" onclick="violet()"></button>
+            <button id="indigo-theme" onclick="indigo()"></button>
+            <button id="blue-theme" onclick="blue()"></button>
+            <button id="green-theme" onclick="green()"></button>
+            <button id="yellow-theme" onclick="yellow()"></button>
+            <button id="orange-theme" onclick="orange()"></button>
+            <button id="red-theme" onclick="red()"></button>
+            <button id="post-btn" onclick="post()">Post</button>
+          </div>
         </div>
         
+        <div id="output">
+          <p id="output-text"></p>
+        </div>
+
   </main>
   
   <!-- Bootstrap JavaScript Libraries -->

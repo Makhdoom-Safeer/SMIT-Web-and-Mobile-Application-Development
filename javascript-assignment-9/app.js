@@ -1,202 +1,53 @@
-// Numbers
+// Themes
 
-function one()
+function white()
 {
-    document.getElementById("screen").value += "1"
+    document.getElementById("text").style.backgroundColor = "white"
 }
 
-function two()
+function violet()
 {
-    document.getElementById("screen").value += "2"
+    document.getElementById("text").style.backgroundColor = "violet"
 }
 
-function three()
+function indigo()
 {
-    document.getElementById("screen").value += "3"
+    document.getElementById("text").style.backgroundColor = "indigo"
 }
 
-function four()
+function blue()
 {
-    document.getElementById("screen").value += "4"
+    document.getElementById("text").style.backgroundColor = "blue"
 }
 
-function five()
+function green()
 {
-    document.getElementById("screen").value += "5"
+    document.getElementById("text").style.backgroundColor = "green"
 }
 
-function six()
+function yellow()
 {
-    document.getElementById("screen").value += "6"
+    document.getElementById("text").style.backgroundColor = "yellow"
 }
 
-function seven()
+function orange()
 {
-    document.getElementById("screen").value += "7"
+    document.getElementById("text").style.backgroundColor = "orange"
 }
 
-function eight()
+function red()
 {
-    document.getElementById("screen").value += "8"
+    document.getElementById("text").style.backgroundColor = "red"
 }
 
-function nine()
-{
-    document.getElementById("screen").value += "9"
-}
 
-function zero()
+// Output
+function post()
 {
-    document.getElementById("screen").value += "0"
-}
-
-function double_zero()
-{
-    document.getElementById("screen").value += "00"
-}
-
-// Operations
-
-function addition()
-{
-    var screen_length = document.getElementById("screen").value.length
-    if (
-        document.getElementById("screen").value[screen_length - 1] === "+" || 
-        document.getElementById("screen").value[screen_length - 1] === "-" ||
-        document.getElementById("screen").value[screen_length - 1] === "*" ||
-        document.getElementById("screen").value[screen_length - 1] === "/" ||
-        document.getElementById("screen").value[screen_length - 1] === ".")
+    if (document.getElementById("text").value !== "")
     {
-        document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1) + "+"
+        document.getElementById("app").style.display = "none"
+        document.getElementById("output").style.backgroundColor = document.getElementById("text").style.backgroundColor
+        document.getElementById("output-text").innerHTML = document.getElementById("text").value
     }
-
-    else if (document.getElementById("screen").value === "")
-    {
-        document.getElementById("screen").value += ""
-    }
-
-    else
-    {
-        document.getElementById("screen").value += "+"
-    }
-}
-
-function subtraction()
-{
-    var screen_length = document.getElementById("screen").value.length
-    if (
-        document.getElementById("screen").value[screen_length - 1] === "+" || 
-        document.getElementById("screen").value[screen_length - 1] === "-" || 
-        document.getElementById("screen").value[screen_length - 1] === "*" || 
-        document.getElementById("screen").value[screen_length - 1] === "/" ||
-        document.getElementById("screen").value[screen_length - 1] === ".")
-    {
-        document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1) + "-"
-    }
-
-    else if (document.getElementById("screen").value === "")
-    {
-        document.getElementById("screen").value += ""
-    }
-
-    else
-    {
-        document.getElementById("screen").value += "-"
-    }
-}
-
-function multiplication()
-{
-    var screen_length = document.getElementById("screen").value.length
-    if (
-        document.getElementById("screen").value[screen_length - 1] === "+" || 
-        document.getElementById("screen").value[screen_length - 1] === "-" ||
-        document.getElementById("screen").value[screen_length - 1] === "*" ||
-        document.getElementById("screen").value[screen_length - 1] === "/" ||
-        document.getElementById("screen").value[screen_length - 1] === ".")
-    {
-        document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1) + "*"
-    }
-
-    else if (document.getElementById("screen").value === "")
-    {
-        document.getElementById("screen").value += ""
-    }
-
-    else
-    {
-        document.getElementById("screen").value += "*"
-    }
-}
-
-function division()
-{
-    var screen_length = document.getElementById("screen").value.length
-    if (
-        document.getElementById("screen").value[screen_length - 1] === "+" || 
-        document.getElementById("screen").value[screen_length - 1] === "-" ||
-        document.getElementById("screen").value[screen_length - 1] === "*" ||
-        document.getElementById("screen").value[screen_length - 1] === "/" ||
-        document.getElementById("screen").value[screen_length - 1] === ".")
-    {
-        document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1) + "/"
-    }
-
-    else if (document.getElementById("screen").value === "")
-    {
-        document.getElementById("screen").value += ""
-    }
-
-    else
-    {
-        document.getElementById("screen").value += "/"
-    }
-}
-
-function decimal()
-{
-    var screen_length = document.getElementById("screen").value.length
-    if (
-        document.getElementById("screen").value[screen_length - 1] === "+" || 
-        document.getElementById("screen").value[screen_length - 1] === "-" ||
-        document.getElementById("screen").value[screen_length - 1] === "*" ||
-        document.getElementById("screen").value[screen_length - 1] === "/" ||
-        document.getElementById("screen").value[screen_length - 1] === ".")
-    {
-        document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1) + "."
-    }
-
-    else
-    {
-        document.getElementById("screen").value += "."
-    }
-}
-
-// Screen operations
-
-function clr()
-{
-    document.getElementById("screen").value = ""
-}
-
-function del()
-{
-    document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1)
-}
-
-function answer()
-{
-    var screen_length = document.getElementById("screen").value.length
-    for (var i = 0; i < screen_length; i++)
-    {
-        if (
-            document.getElementById("screen").value[screen_length - 1] === "+" || 
-            document.getElementById("screen").value[screen_length - 1] === "-" ||
-            document.getElementById("screen").value[screen_length - 1] === "*" ||
-            document.getElementById("screen").value[screen_length - 1] === "/")
-        {
-            document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1)
-        }
-    }
-    document.getElementById("screen").value = eval(document.getElementById("screen").value)
 }
