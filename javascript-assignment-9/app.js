@@ -3,11 +3,13 @@
 function white()
 {
     document.getElementById("text").style.backgroundColor = "white"
+    document.getElementById("text").style.color = "black"
 }
 
 function violet()
 {
     document.getElementById("text").style.backgroundColor = "violet"
+    document.getElementById("text").style.color = "white"
 }
 
 function indigo()
@@ -50,4 +52,9 @@ function post()
         document.getElementById("output").style.backgroundColor = document.getElementById("text").style.backgroundColor
         document.getElementById("output-text").innerHTML = document.getElementById("text").value
     }
+}
+
+function pulse()
+{
+    document.getElementById("ugly").className = "animate__animated animate__bounce"
 }

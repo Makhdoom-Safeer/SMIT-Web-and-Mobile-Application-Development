@@ -75,12 +75,28 @@ h1{
     width: 45px;
 }
 
+#white-theme:hover{
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+#white-theme:not(:hover){
+    transform: scale3d(1, 1, 1);
+}
+
 #violet-theme{
     background-color: violet;
     border: none;
     border-radius: 50%;
     height: 45px;
     width: 45px;
+}
+
+#violet-theme:hover{
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+#wviolet-theme:not(:hover){
+    transform: scale3d(1, 1, 1);
 }
 
 #indigo-theme{
@@ -91,12 +107,28 @@ h1{
     width: 45px;
 }
 
+#indigo-theme:hover{
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+#indigo-theme:not(:hover){
+    transform: scale3d(1, 1, 1);
+}
+
 #blue-theme{
     background-color: blue;
     border: none;
     border-radius: 50%;
     height: 45px;
     width: 45px;
+}
+
+#blue-theme:hover{
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+#blue-theme:not(:hover){
+    transform: scale3d(1, 1, 1);
 }
 
 #green-theme{
@@ -107,12 +139,28 @@ h1{
     width: 45px;
 }
 
+#green-theme:hover{
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+#green-theme:not(:hover){
+    transform: scale3d(1, 1, 1);
+}
+
 #yellow-theme{
     background-color: yellow;
     border: none;
     border-radius: 50%;
     height: 45px;
     width: 45px;
+}
+
+#yellow-theme:hover{
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+#yellow-theme:not(:hover){
+    transform: scale3d(1, 1, 1);
 }
 
 #orange-theme{
@@ -123,12 +171,28 @@ h1{
     width: 45px;
 }
 
+#orange-theme:hover{
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+#orange-theme:not(:hover){
+    transform: scale3d(1, 1, 1);
+}
+
 #red-theme{
     background-color: red;
     border: none;
     border-radius: 50%;
     height: 45px;
     width: 45px;
+}
+
+#red-theme:hover{
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+#red-theme:not(:hover){
+    transform: scale3d(1, 1, 1);
 }
 
 #post-btn
