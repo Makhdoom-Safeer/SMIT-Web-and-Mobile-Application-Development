@@ -94,6 +94,10 @@ body{
         max-height: 100%;
     }
 
+    #display input
+    {
+        width: 255px;
+    }
 }
 
 /* Landscape (734 x 375) */
