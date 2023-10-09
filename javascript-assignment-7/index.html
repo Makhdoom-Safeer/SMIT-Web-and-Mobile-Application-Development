@@ -21,42 +21,46 @@
 <body>
 
     <div class="container-fluid" id="main">
-        <div class="col-sm-12 col-md-8 col-lg-4" id="calculator">
-            <div class="row" id="display">
+        <div class="row" id="calculator">
+
+            <div class="col-12" id="display">
                 <input type="text" id="screen" disabled>
             </div>
 
-            <div class="row" id="buttons">
+            <div class="col-12" id="buttons">
                 <button id="clr" onclick = "clr()">AC</button>
                 <button id="del" onclick = "del()">DE</button>
                 <button id="decimal"  onclick = "decimal()">.</button>
                 <button id="division" onclick = "division()">&divide;</button>
             </div>
 
-            <div class="row" id="buttons">
+            <div class="col-12" id="buttons">
                 <button id="seven" onclick = "seven()">7</button>
                 <button id="eight" onclick = "eight()">8</button>
                 <button id="nine" onclick = "nine()">9</button>
                 <button id="multiplication" onclick = "multiplication()">&times;</button>
             </div>
 
-            <div class="row" id="buttons">
+            <div class="col-12" id="buttons">
                 <button id="four" onclick = "four()">4</button>
                 <button id="five" onclick = "five()">5</button>
                 <button id="six" onclick = "six()">6</button>
                 <button id="subtraction" value = "-" onclick = "subtraction()">&minus;</button>
             </div>
-            <div class="row" id="buttons">
+
+            <div class="col-12" id="buttons">
                 <button id="one" onclick = "one()">1</button>
                 <button id="two" onclick = "two()">2</button>
                 <button id="three" onclick = "three()">3</button>
                 <button id="addition" onclick = "addition()">&plus;</button>
             </div>
-            <div class="row" id="buttons">
+
+            <div class="col-12" id="buttons">
                 <button id="double_zero" onclick = "double_zero()">00</button>
                 <button id="zero" onclick = "zero()">0</button>
                 <button id="answer" onclick = "answer()">=</button>
             </div>
+            
         </div>
     </div>
 
