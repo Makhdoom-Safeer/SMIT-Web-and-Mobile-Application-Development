@@ -3,33 +3,43 @@ body{
     background-size: cover;
 }
 
-h1{
-    font-size: 48px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline;
-    text-align:center;
+#main
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #calculator
 {
-    background-color: black;
+    background-color:#46464b;
     width: 480px;
-    height: 500px;
+    height: 540px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: auto;
     border-radius: 10px;
-    text-align: center;
+
+    /* For Center */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #display input
 {
-    width: 394px;
-    height: 60px;
-    font-size: 30px;
+    width: 430px;
+    height: 80px;
+    font-size: 36px;
     border-radius: 8px;
-    padding: 0px 10px;
+    padding: 0px 15px;
+    margin: auto;
+    background-color: #aac8b4;
 }
 
 #buttons
@@ -45,12 +55,37 @@ h1{
     height: 60px;
     font-size: 30px;
     border-radius: 8px;
+    background-color: #646464;
+    color: white;
+}
+
+#buttons #clr
+{
+    background-color: #c86e78;
+}
+
+#buttons #del
+{
+    background-color: #c86e78;
 }
 
 #buttons #answer
 {
-    width: 192px;
+    width: 196px;
     height: 60px;
     font-size: 30px;
     border-radius: 8px;
+}
+
+@media only screen and (max-width: 500px)
+{
+
+    #calculator
+    {
+        width: 100%;
+        height: 100vh;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
 }
