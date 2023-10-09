@@ -77,7 +77,7 @@ body{
     border-radius: 8px;
 }
 
-@media only screen and (max-width: 576px)
+@media not screen and (orientation: landscape)
 {
 
     #calculator
