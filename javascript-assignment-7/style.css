@@ -84,7 +84,7 @@ body{
 
 /* For iPhone eXpensive
 /* Portrait (375 x 734) */
-@media only screen and (max-width: 375px) and (max-height: 734px)
+@media only screen and (max-width: 375px) and (min-height: 734px) and (orientation: portrait)
 {
     #calculator
     {
@@ -96,12 +96,17 @@ body{
 
     #display input
     {
-        width: 255px;
+        width: 338px;
+    }
+
+    #buttons #answer
+    {
+        width: 170px;
     }
 }
 
 /* Landscape (734 x 375) */
-@media only screen and (max-width: 734px) and (max-height: 375px)
+@media only screen and (min-width: 734px) and (max-height: 375px) and (orientation: landscape)
 {
     #main
     {
@@ -113,9 +118,9 @@ body{
 
 }
 
-/* For Android (Pixel 2) */
-/* Portrait (412 x 684) */
-@media only screen and (max-width: 412px) and (max-height: 684px)
+/* When width = height */
+
+@media screen and (orientation: portrait)
 {
     #calculator
     {
@@ -125,24 +130,19 @@ body{
         max-height: 100%;
     }
 
-}
-
-/* Landscape (684 x 412) */
-@media only screen and (max-width: 684px) and (max-height: 412px)
-{
-    #main
+    #display input
     {
-        width: 100%;
-        height: 100vh;
-        max-width: 100%;
-        max-height: 100%;
+        width: 502px;
     }
 
+    #buttons #answer
+    {
+        width: 220px;
+    }
 }
 
-/* iPhone 6-8 */
-/* Portrait (375 x 667) */
-@media only screen and (max-width: 375px) and (max-height: 667px)
+/* For 576px */
+@media only screen and (max-width: 576px)
 {
     #calculator
     {
@@ -152,24 +152,19 @@ body{
         max-height: 100%;
     }
 
-}
-
-/* Landscape (667 x 375) */
-@media only screen and (max-width: 667px) and (max-height: 375px)
-{
-    #main
+    #display input
     {
-        width: 100%;
-        height: 100vh;
-        max-width: 100%;
-        max-height: 100%;
+        width: 458px;
     }
 
+    #buttons #answer
+    {
+        width: 206px;
+    }
 }
 
-/* iPhone 6-8 Plump */
-/* Portrait (414 x 736) */
-@media only screen and (max-width: 414px) and (max-height: 736px)
+/* For 576px */
+@media only screen and (max-width: 576px)
 {
     #calculator
     {
@@ -179,24 +174,19 @@ body{
         max-height: 100%;
     }
 
-}
-
-/* Landscape (736 x 414) */
-@media only screen and (max-width: 736px) and (max-height: 414px)
-{
-    #main
+    #display input
     {
-        width: 100%;
-        height: 100vh;
-        max-width: 100%;
-        max-height: 100%;
+        width: 458px;
     }
 
+    #buttons #answer
+    {
+        width: 206px;
+    }
 }
 
-/* iPad */
-/* Portrait (768 x 1024) */
-@media screen and (max-width: 768px) and (max-height: 1024px)
+/* For Android (480px) */
+@media only screen and (max-width: 480px)
 {
     #calculator
     {
@@ -206,22 +196,19 @@ body{
         max-height: 100%;
     }
 
-}
-
-/* Landscape (1024 x 768) */
-@media screen and (max-width: 1024px) and (max-height: 768px)
-{
-    #main
+    #display input
     {
-        width: 100%;
-        height: 100vh;
-        max-width: 100%;
-        max-height: 100%;
+        width: 402px;
     }
 
+    #buttons #answer
+    {
+        width: 186px;
+    }
 }
 
-@media not screen and (orientation: landscape)
+/* For Iphone (414px) */
+@media only screen and (max-width: 414px)
 {
     #calculator
     {
@@ -230,15 +217,102 @@ body{
         max-width: 100%;
         max-height: 100%;
     }
+
+    #display input
+    {
+        width: 360px;
+    }
+
+    #buttons #answer
+    {
+        width: 174px;
+    }
 }
 
-@media not screen and (orientation: portrait)
+/* For Iphone (390px) */
+@media only screen and (max-width: 390px)
 {
-    #main
+    #calculator
     {
         width: 100%;
         height: 100vh;
         max-width: 100%;
         max-height: 100%;
+    }
+
+    #display input
+    {
+        width: 348px;
+    }
+
+    #buttons #answer
+    {
+        width: 170px;
+    }
+}
+
+/* For Iphone (375px) */
+@media only screen and (max-width: 375px)
+{
+    #calculator
+    {
+        width: 100%;
+        height: 100vh;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #display input
+    {
+        width: 336px;
+    }
+
+    #buttons #answer
+    {
+        width: 166px;
+    }
+}
+
+/* For Android (360px) */
+@media only screen and (max-width: 360px)
+{
+    #calculator
+    {
+        width: 100%;
+        height: 100vh;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #display input
+    {
+        width: 330px;
+    }
+
+    #buttons #answer
+    {
+        width: 164px;
+    }
+}
+
+/* For Android (320px) */
+@media only screen and (max-width: 320px)
+{
+    #calculator
+    {
+        width: 100%;
+        height: 100vh;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #display input
+    {
+        width: 294px;
+    }
+
+    #buttons #answer
+    {
+        width: 166px;
     }
 }
