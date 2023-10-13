@@ -70,5 +70,6 @@ function post()
             </div>
         </div>
         `
+        document.getElementById("text").value = ""
     }
 }
