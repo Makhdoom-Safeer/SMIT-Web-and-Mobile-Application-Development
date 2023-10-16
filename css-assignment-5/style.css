@@ -6,6 +6,7 @@ body{
 iframe{
     width: 525px;
     height: 375px;
+    object-fit: contain;
     background-color: white;
 }
 

@@ -415,6 +415,68 @@ var mobile_brands = {
         },
     },
 
+    nokia: {
+        nokia_c300: {
+            name: "Nokia C300",
+            released: "Jun 14, 2023",
+            display: "6.5 inches, 1600 x 720 pixels, 60Hz Refresh rate",
+            camera: "13 MP (Triple camera), 8 MP front",
+            hardware: "Qualcomm Snapdragon 662, 3GB RAM",
+            storage: "32GB, microSDXC",
+            battery: "4000 mAh",
+            os: "Android 12",
+            image: "https://m-cdn.phonearena.com/images/phones/83999-350/Nokia-C300.webp"
+        },
+
+        nokia_c110: {
+            name: "Nokia C110",
+            released: "Jun 14, 2023",
+            display: "6.3 inches, 1560 x 720 pixels, 60Hz Refresh rate",
+            camera: "13 MP (Single camera), 5 MP front",
+            hardware: "Mediatek Helio P22 (12 nm), 3GB RAM",
+            storage: "32GB, microSDXC",
+            battery: "3000 mAh",
+            os: "Android 12",
+            image: "https://m-cdn.phonearena.com/images/phones/83998-800/Nokia-C110.webp"
+        },
+
+        nokia_g400: {
+            name: "Nokia G400",
+            released: "Aug 24, 2022",
+            display: "6.6 inches, 2408 x 1080 pixels, 120Hz Refresh rate",
+            camera: "48 MP (Triple camera), 16 MP front",
+            hardware: "Qualcomm Snapdragon 480+ 5G, 4GB RAM",
+            storage: "64GB, microSDXC",
+            battery: "5000 mAh",
+            os: "Android 12",
+            image: "https://m-cdn.phonearena.com/images/phones/83815-350/Nokia-G400.webp"
+        },
+
+        nokia_x30: {
+            name: "Nokia X30",
+            released: "Sep 21, 2022",
+            display: "6.4 inches, 2400 x 1080 pixels, 90Hz Refresh rate",
+            camera: "50 MP (Dual camera), 16 MP front",
+            hardware: "Qualcomm Snapdragon 695, 6GB RAM",
+            storage: "128GB, not expandable",
+            battery: "4200 mAh",
+            os: "Android 12",
+            image: "https://m-cdn.phonearena.com/images/phones/83693-350/Nokia-X30.webp"
+        },
+
+        nokia_t10: {
+            name: "Nokia T10",
+            released: "Aug 20, 2022",
+            display: "8.0 inches, 1280 x 800 pixels",
+            camera: "8 MP (Single camera), 1.9 MP front",
+            hardware: "Unisoc T606, 3GB RAM",
+            storage: "32GB, microSDXC",
+            battery: "5250 mAh",
+            os: "Android 12",
+            image: "https://m-cdn.phonearena.com/images/phones/83482-350/Nokia-T10.webp"
+        },
+    },
+
     oneplus: {
         oneplus_nord_3_5g: {
             name: "OnePlus Nord 3 5G",
