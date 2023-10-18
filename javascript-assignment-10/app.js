@@ -837,6 +837,33 @@ function search()
 
     else
     {
-        Swal.fire('No results found!')
+        manufacturer.innerHTML = `
+        <option value="">Select Manufacturer</option>
+        `
+        
+        for (var key in mobile_brands)
+        {
+            manufacturer.innerHTML += `
+            <option value="${key}">${key.toUpperCase()}</option>
+            `
+            for (var key1 in mobile_brands[key])
+                {
+                    product_list.innerHTML += `
+                    <div class="col mb-4">
+                        <div class="card animate__animated animate__fadeInUp" style="width: 18rem;">
+                            <img src="${mobile_brands[key][key1].image}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">${mobile_brands[key][key1].name}</h5>
+                            <p class="card-text"><strong>Display: </strong>${mobile_brands[key][key1].display}</p>
+                            <p class="card-text"><strong>Camera: </strong>${mobile_brands[key][key1].camera}</p>
+                            <p class="card-text"><strong>Hardware: </strong>${mobile_brands[key][key1].hardware}</p>
+                            <p class="card-text"><strong>Storage: </strong>${mobile_brands[key][key1].storage}</p>
+                            <p class="card-text"><strong>Operating System: </strong>${mobile_brands[key][key1].os}</p>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+        }
     }
 }
