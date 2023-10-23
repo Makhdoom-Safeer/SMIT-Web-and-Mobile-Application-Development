@@ -601,26 +601,18 @@ function quiz_end(){
     if (percentage >= 70)
     {
         end_screen.innerHTML = `
-        <div class="row">
-            <div class="col">
-                <h1>Congratulatons!</h1>
-                <p>Number of correct answers = ${score}</p>
-                <p>Percentage = ${percentage}%</p>
-            </div>
-        </div>
+            <h1>Congratulatons!</h1>
+            <p>Number of correct answers = ${score}</p>
+            <p>Percentage = ${percentage}%</p>
         `
     }
 
     else
     {
         end_screen.innerHTML = `
-        <div class="row">
-            <div class="col">
-                <h1>Better Luck Next Time!</h1>
-                <p>Number of correct answers = ${score}</p>
-                <p>Percentage = ${percentage}%</p>
-            </div>
-        </div>
+            <h1>Better Luck Next Time!</h1>
+            <p>Number of correct answers = ${score}</p>
+            <p>Percentage = ${percentage}%</p>
         `
     }
 
