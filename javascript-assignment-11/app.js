@@ -389,7 +389,6 @@ function render(){
 
         if (questions[index].option3 === "" && questions[index].option4 === ""){
             question_box.innerHTML = `
-            <div class="col">
             <p>${index+1}) ${questions[index].question}<p>
             <input type="radio" id="option1" name="options" value="${questions[index].option1}" required>
             <label for="option1">${questions[index].option1}</label>
@@ -397,13 +396,11 @@ function render(){
             <input type="radio" id="option2" name="options" value="${questions[index].option2}" required>
             <label for="option2">${questions[index].option2}</label>
             <br>
-            </div>
             `
         }
     
         else if(questions[index].option3 !== "" && questions[index].option4 === ""){
             question_box.innerHTML = `
-            <div class="col">
             <p>${index+1}) ${questions[index].question}<p>
             <input type="radio" id="option1" name="options" value="${questions[index].option1}" required>
             <label for="option1">${questions[index].option1}</label>
@@ -414,13 +411,11 @@ function render(){
             <input type="radio" id="option3" name="options" value="${questions[index].option3}" required>
             <label for="option3">${questions[index].option3}</label>
             <br>
-            </div>
             `
         }
     
         else{
             question_box.innerHTML = `
-            <div class="col">
             <p>${index+1}) ${questions[index].question}<p>
             <input type="radio" id="option1" name="options" value="${questions[index].option1}" required>
             <label for="option1">${questions[index].option1}</label>
@@ -434,7 +429,6 @@ function render(){
             <input type="radio" id="option4" name="options" value="${questions[index].option4}" required>
             <label for="option4">${questions[index].option4}</label>
             <br>
-            </div>
             `
         }
     }
@@ -464,7 +458,6 @@ function next()
 
         if (questions[index].option3 === "" && questions[index].option4 === ""){
             question_box.innerHTML = `
-            <div class="col">
             <p>${index+1}) ${questions[index].question}<p>
             <input type="radio" id="option1" name="options" value="${questions[index].option1}" required>
             <label for="option1">${questions[index].option1}</label>
@@ -472,13 +465,11 @@ function next()
             <input type="radio" id="option2" name="options" value="${questions[index].option2}" required>
             <label for="option2">${questions[index].option2}</label>
             <br>
-            </div>
             `
         }
 
         else if(questions[index].option3 !== "" && questions[index].option4 === ""){
             question_box.innerHTML = `
-            <div class="col">
             <p>${index+1}) ${questions[index].question}<p>
             <input type="radio" id="option1" name="options" value="${questions[index].option1}" required>
             <label for="option1">${questions[index].option1}</label>
@@ -489,13 +480,11 @@ function next()
             <input type="radio" id="option3" name="options" value="${questions[index].option3}" required>
             <label for="option3">${questions[index].option3}</label>
             <br>
-            </div>
             `
         }
 
         else{
             question_box.innerHTML = `
-            <div class="col">
             <p>${index+1}) ${questions[index].question}<p>
             <input type="radio" id="option1" name="options" value="${questions[index].option1}" required>
             <label for="option1">${questions[index].option1}</label>
@@ -509,7 +498,6 @@ function next()
             <input type="radio" id="option4" name="options" value="${questions[index].option4}" required>
             <label for="option4">${questions[index].option4}</label>
             <br>
-            </div>
             `
         }
     }
@@ -539,9 +527,7 @@ function timer(){
     }
 
     counter.innerHTML = `
-    <div class="col">
     <p>${hours}:${minutes}:${seconds}</p>
-    </div>
     `
 }
 
@@ -603,7 +589,7 @@ function quiz_end(){
         end_screen.innerHTML = `
             <h1>Congratulatons!</h1>
             <p>Number of correct answers = ${score}</p>
-            <p>Percentage = ${percentage}%</p>
+            <p>Percentage = ${percentage.toFixed(2)}%</p>
         `
     }
 
@@ -612,7 +598,7 @@ function quiz_end(){
         end_screen.innerHTML = `
             <h1>Better Luck Next Time!</h1>
             <p>Number of correct answers = ${score}</p>
-            <p>Percentage = ${percentage}%</p>
+            <p>Percentage = ${percentage.toFixed(2)}%</p>
         `
     }
 
