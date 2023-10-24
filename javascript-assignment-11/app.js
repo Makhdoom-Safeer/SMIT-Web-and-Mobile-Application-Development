@@ -390,11 +390,15 @@ function render(){
         if (questions[index].option3 === "" && questions[index].option4 === ""){
             question_box.innerHTML = `
             <p>${index+1}) ${questions[index].question}<p>
-            <input type="radio" id="option1" name="options" value="${questions[index].option1}" required>
-            <label for="option1">${questions[index].option1}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option1}" required>
+                <span class="wrappable">${questions[index].option1}</span>
+            </label>
             <br>
-            <input type="radio" id="option2" name="options" value="${questions[index].option2}" required>
-            <label for="option2">${questions[index].option2}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option2}" required>
+                <span class="wrappable">${questions[index].option2}</span>
+            </label>
             <br>
             `
         }
@@ -402,14 +406,20 @@ function render(){
         else if(questions[index].option3 !== "" && questions[index].option4 === ""){
             question_box.innerHTML = `
             <p>${index+1}) ${questions[index].question}<p>
-            <input type="radio" id="option1" name="options" value="${questions[index].option1}" required>
-            <label for="option1">${questions[index].option1}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option1}" required>
+                <span class="wrappable">${questions[index].option1}</span>
+            </label>
             <br>
-            <input type="radio" id="option2" name="options" value="${questions[index].option2}" required>
-            <label for="option2">${questions[index].option2}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option2}" required>
+                <span class="wrappable">${questions[index].option2}</span>
+            </label>
             <br>
-            <input type="radio" id="option3" name="options" value="${questions[index].option3}" required>
-            <label for="option3">${questions[index].option3}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option3}" required>
+                <span class="wrappable">${questions[index].option3}</span>
+            </label>
             <br>
             `
         }
@@ -417,17 +427,25 @@ function render(){
         else{
             question_box.innerHTML = `
             <p>${index+1}) ${questions[index].question}<p>
-            <input type="radio" id="option1" name="options" value="${questions[index].option1}" required>
-            <label for="option1">${questions[index].option1}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option1}" required>
+                <span class="wrappable">${questions[index].option1}</span>
+            </label>
             <br>
-            <input type="radio" id="option2" name="options" value="${questions[index].option2}" required>
-            <label for="option2">${questions[index].option2}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option2}" required>
+                <span class="wrappable">${questions[index].option2}</span>
+            </label>
             <br>
-            <input type="radio" id="option3" name="options" value="${questions[index].option3}" required>
-            <label for="option3">${questions[index].option3}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option3}" required>
+                <span class="wrappable">${questions[index].option3}</span>
+            </label>
             <br>
-            <input type="radio" id="option4" name="options" value="${questions[index].option4}" required>
-            <label for="option4">${questions[index].option4}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option4}" required>
+                <span class="wrappable">${questions[index].option4}</span>
+            </label>
             <br>
             `
         }
@@ -459,11 +477,15 @@ function next()
         if (questions[index].option3 === "" && questions[index].option4 === ""){
             question_box.innerHTML = `
             <p>${index+1}) ${questions[index].question}<p>
-            <input type="radio" id="option1" name="options" value="${questions[index].option1}" required>
-            <label for="option1">${questions[index].option1}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option1}" required>
+                <span class="wrappable">${questions[index].option1}</span>
+            </label>
             <br>
-            <input type="radio" id="option2" name="options" value="${questions[index].option2}" required>
-            <label for="option2">${questions[index].option2}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option2}" required>
+                <span class="wrappable">${questions[index].option2}</span>
+            </label>
             <br>
             `
         }
@@ -471,14 +493,20 @@ function next()
         else if(questions[index].option3 !== "" && questions[index].option4 === ""){
             question_box.innerHTML = `
             <p>${index+1}) ${questions[index].question}<p>
-            <input type="radio" id="option1" name="options" value="${questions[index].option1}" required>
-            <label for="option1">${questions[index].option1}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option1}" required>
+                <span class="wrappable">${questions[index].option1}</span>
+            </label>
             <br>
-            <input type="radio" id="option2" name="options" value="${questions[index].option2}" required>
-            <label for="option2">${questions[index].option2}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option2}" required>
+                <span class="wrappable">${questions[index].option2}</span>
+            </label>
             <br>
-            <input type="radio" id="option3" name="options" value="${questions[index].option3}" required>
-            <label for="option3">${questions[index].option3}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option3}" required>
+                <span class="wrappable">${questions[index].option3}</span>
+            </label>
             <br>
             `
         }
@@ -486,17 +514,25 @@ function next()
         else{
             question_box.innerHTML = `
             <p>${index+1}) ${questions[index].question}<p>
-            <input type="radio" id="option1" name="options" value="${questions[index].option1}" required>
-            <label for="option1">${questions[index].option1}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option1}" required>
+                <span class="wrappable">${questions[index].option1}</span>
+            </label>
             <br>
-            <input type="radio" id="option2" name="options" value="${questions[index].option2}" required>
-            <label for="option2">${questions[index].option2}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option2}" required>
+                <span class="wrappable">${questions[index].option2}</span>
+            </label>
             <br>
-            <input type="radio" id="option3" name="options" value="${questions[index].option3}" required>
-            <label for="option3">${questions[index].option3}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option3}" required>
+                <span class="wrappable">${questions[index].option3}</span>
+            </label>
             <br>
-            <input type="radio" id="option4" name="options" value="${questions[index].option4}" required>
-            <label for="option4">${questions[index].option4}</label>
+            <label>
+                <input type="radio" name="options" value="${questions[index].option4}" required>
+                <span class="wrappable">${questions[index].option4}</span>
+            </label>
             <br>
             `
         }

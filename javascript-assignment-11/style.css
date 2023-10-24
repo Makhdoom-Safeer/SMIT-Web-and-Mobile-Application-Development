@@ -32,6 +32,22 @@ body
     border-color: #ffebe1;
     margin: 20px 100px;
     font-size: 18px;
+    word-break: break-word;
+}
+
+#question-box a
+{
+    word-break: break-all;
+}
+
+label
+{
+    white-space: nowrap;
+}
+
+.wrappable
+{
+    white-space: normal;
 }
 
 #buttons
