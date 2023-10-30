@@ -4,6 +4,15 @@ body
     width: 100%;
 }
 
+p, input, label
+{
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 #main
 {
     position: relative;

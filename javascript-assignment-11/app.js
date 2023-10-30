@@ -389,14 +389,14 @@ function render(){
 
         if (questions[index].option3 === "" && questions[index].option4 === ""){
             question_box.innerHTML = `
-            <p>${index+1}) ${questions[index].question}<p>
+            <p>${index+1}. ${questions[index].question}<p>
             <label>
-                <input type="radio" name="options" value="${questions[index].option1}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option1}" required>
                 <span class="wrappable">${questions[index].option1}</span>
             </label>
             <br>
             <label>
-                <input type="radio" name="options" value="${questions[index].option2}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option2}" required>
                 <span class="wrappable">${questions[index].option2}</span>
             </label>
             <br>
@@ -405,19 +405,19 @@ function render(){
     
         else if(questions[index].option3 !== "" && questions[index].option4 === ""){
             question_box.innerHTML = `
-            <p>${index+1}) ${questions[index].question}<p>
+            <p>${index+1}. ${questions[index].question}<p>
             <label>
-                <input type="radio" name="options" value="${questions[index].option1}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option1}" required>
                 <span class="wrappable">${questions[index].option1}</span>
             </label>
             <br>
             <label>
-                <input type="radio" name="options" value="${questions[index].option2}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option2}" required>
                 <span class="wrappable">${questions[index].option2}</span>
             </label>
             <br>
             <label>
-                <input type="radio" name="options" value="${questions[index].option3}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option3}" required>
                 <span class="wrappable">${questions[index].option3}</span>
             </label>
             <br>
@@ -426,24 +426,24 @@ function render(){
     
         else{
             question_box.innerHTML = `
-            <p>${index+1}) ${questions[index].question}<p>
+            <p>${index+1}. ${questions[index].question}<p>
             <label>
-                <input type="radio" name="options" value="${questions[index].option1}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option1}" required>
                 <span class="wrappable">${questions[index].option1}</span>
             </label>
             <br>
             <label>
-                <input type="radio" name="options" value="${questions[index].option2}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option2}" required>
                 <span class="wrappable">${questions[index].option2}</span>
             </label>
             <br>
             <label>
-                <input type="radio" name="options" value="${questions[index].option3}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option3}" required>
                 <span class="wrappable">${questions[index].option3}</span>
             </label>
             <br>
             <label>
-                <input type="radio" name="options" value="${questions[index].option4}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option4}" required>
                 <span class="wrappable">${questions[index].option4}</span>
             </label>
             <br>
@@ -476,14 +476,14 @@ function next()
 
         if (questions[index].option3 === "" && questions[index].option4 === ""){
             question_box.innerHTML = `
-            <p>${index+1}) ${questions[index].question}<p>
+            <p>${index+1}. ${questions[index].question}<p>
             <label>
-                <input type="radio" name="options" value="${questions[index].option1}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option1}" required>
                 <span class="wrappable">${questions[index].option1}</span>
             </label>
             <br>
             <label>
-                <input type="radio" name="options" value="${questions[index].option2}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option2}" required>
                 <span class="wrappable">${questions[index].option2}</span>
             </label>
             <br>
@@ -492,19 +492,19 @@ function next()
 
         else if(questions[index].option3 !== "" && questions[index].option4 === ""){
             question_box.innerHTML = `
-            <p>${index+1}) ${questions[index].question}<p>
+            <p>${index+1}. ${questions[index].question}<p>
             <label>
-                <input type="radio" name="options" value="${questions[index].option1}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option1}" required>
                 <span class="wrappable">${questions[index].option1}</span>
             </label>
             <br>
             <label>
-                <input type="radio" name="options" value="${questions[index].option2}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option2}" required>
                 <span class="wrappable">${questions[index].option2}</span>
             </label>
             <br>
             <label>
-                <input type="radio" name="options" value="${questions[index].option3}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option3}" required>
                 <span class="wrappable">${questions[index].option3}</span>
             </label>
             <br>
@@ -513,24 +513,24 @@ function next()
 
         else{
             question_box.innerHTML = `
-            <p>${index+1}) ${questions[index].question}<p>
+            <p>${index+1}. ${questions[index].question}<p>
             <label>
-                <input type="radio" name="options" value="${questions[index].option1}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option1}" required>
                 <span class="wrappable">${questions[index].option1}</span>
             </label>
             <br>
             <label>
-                <input type="radio" name="options" value="${questions[index].option2}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option2}" required>
                 <span class="wrappable">${questions[index].option2}</span>
             </label>
             <br>
             <label>
-                <input type="radio" name="options" value="${questions[index].option3}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option3}" required>
                 <span class="wrappable">${questions[index].option3}</span>
             </label>
             <br>
             <label>
-                <input type="radio" name="options" value="${questions[index].option4}" required>
+                <input class="form-check-input" type="radio" name="options" value="${questions[index].option4}" required>
                 <span class="wrappable">${questions[index].option4}</span>
             </label>
             <br>
@@ -563,7 +563,7 @@ function timer(){
     }
 
     counter.innerHTML = `
-    <p>${hours}:${minutes}:${seconds}</p>
+    <p><i class="fa fa-clock-o"></i> ${hours}:${minutes}:${seconds}</p>
     `
 }
 
