@@ -10,31 +10,76 @@ function submit_data()
     
     if (name === "")
     {
-        alert("Please enter name")
+        Swal.fire
+        (
+            {
+                title: 'Error',
+                text: 'Please Enter Name',
+                icon: 'error'
+            }
+        )
     }
 
     else if (email === "")
     {
-        alert("Please enter email")
+        Swal.fire
+        (
+            {
+                title: 'Error',
+                text: 'Please Enter Email',
+                icon: 'error'
+            }
+        )
     }
 
     else if (number === "")
     {
-        alert("Please enter number")
+        Swal.fire
+        (
+            {
+                title: 'Error',
+                text: 'Please Enter Number',
+                icon: 'error'
+            }
+        )
     }
 
     else if (password === "")
     {
-        alert("Please enter password")
+        Swal.fire
+        (
+            {
+                title: 'Error',
+                text: 'Please Enter Password',
+                icon: 'error'
+            }
+        )
     }
 
     else if (confirm_password === "" && password !== confirm_password || confirm_password !== "" && password !== confirm_password )
     {
-        alert("Password Mismatched")
+        Swal.fire
+        (
+            {
+                title: 'Error',
+                text: 'Password Mismatched',
+                icon: 'error'
+            }
+        )
     }
 
     else
     {
+        
+        Swal.fire
+        (
+            {
+                title: 'Success',
+                text: 'Registered Successfully!',
+                icon: 'success'
+            }
+        )
+
         var userData = {
             name: name,
             email: email,
@@ -42,12 +87,21 @@ function submit_data()
             password: password,
             confirm_password: confirm_password,
         }
-    
-        alert("Registered Successfully!")
-    
+
         localStorage.setItem("userdata", JSON.stringify(userData))
-    
-        // var getUserData = JSON.parse(localStorage.getItem("userdata"))
-        // console.log(getUserData)
+
+        setTimeout(()=>{
+            window.location.href = "./dashboard.html"
+        }, 2000)
     }
 }
+
+function dashboard(){
+    var getUserData = JSON.parse(localStorage.getItem("userdata"))
+    var dashboard = document.getElementById("dashboard")
+    dashboard.innerHTML = `
+    <h1 id="welcome">Welcome ${getUserData.name}</h1>
+    `
+}
+
+dashboard()

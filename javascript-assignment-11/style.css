@@ -87,7 +87,16 @@ label
 }
 
 #end-screen h1{
-    color: red;   
+    color: red;
+}
+
+#passed, #failed{
+    text-align: center;
+    margin: 30px auto;
+}
+
+#passed img, #failed img{
+    height: 300px;
 }
 
 /* For Android (480px) */

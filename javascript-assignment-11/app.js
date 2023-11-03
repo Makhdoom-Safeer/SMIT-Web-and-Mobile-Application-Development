@@ -623,7 +623,9 @@ function quiz_end(){
     if (percentage >= 70)
     {
         end_screen.innerHTML = `
-            <h1>Congratulatons!</h1>
+            <div id="passed">
+            <img src="images/check-mark.webp" alt="Passed">
+            </div>
             <p>Number of correct answers = ${score}</p>
             <p>Percentage = ${percentage.toFixed(2)}%</p>
         `
@@ -632,7 +634,9 @@ function quiz_end(){
     else
     {
         end_screen.innerHTML = `
-            <h1>Better Luck Next Time!</h1>
+            <div id="failed">
+            <img src="images/wrong.webp" alt="Failed">
+            </div>
             <p>Number of correct answers = ${score}</p>
             <p>Percentage = ${percentage.toFixed(2)}%</p>
         `
