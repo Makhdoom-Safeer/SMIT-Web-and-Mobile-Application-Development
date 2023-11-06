@@ -7,7 +7,6 @@ body{
 }
 
 #main{
-    
     height: 220px;
     width: 650px;
     border: 1px solid #ebebeb;
@@ -18,25 +17,61 @@ body{
     height: 48px;
     width: 100%;
     border: 1px solid #ebebeb;
-    display: flex;
 }
 
-#options h1{
-    font-size: medium;
-    color: #70757a;
-}
-
-#timer, #stop-watch{
-    width: 50%;
+#options ul{
+    list-style: none;
     height: 100%;
+    width: 100%;
+    display: flex;
+    border: 1px solid #ebebeb;
+    margin: 0px;
+    padding: 0px;
+}
+
+#options #timer-text, #options #stopwatch-text{
+    height: 100%;
+    width: 50%;
+}
+
+#options a{
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: medium;
+    color: #70757a;
+    text-decoration: none;
+    border: 1px solid #ebebeb;
+}
+
+#options a:focus{
+    color: #1a73e8;
+    border: 3px solid #1a73e8;
 }
 
 #display{
     height: 110px;
     border: 1px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    padding: 5px 12px;
+    
+}
+
+#display p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin: 20px 16px 20px 16px;
+}
+
+#display #milliseconds{
+    font-size: 36px;
+}
+
+#display #large_font{
+    font-size: 62px;
 }
 
 #buttons{
@@ -55,7 +90,6 @@ body{
 }
 
 #start{
-    
     color: #fff;
     background-color: #1a73e8;
     border: 1px solid #1a73e8;

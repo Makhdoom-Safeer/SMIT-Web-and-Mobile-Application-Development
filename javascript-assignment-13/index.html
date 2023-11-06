@@ -21,12 +21,14 @@
   <main>
     <div id="main">
         <div id="options">
-            <div id="timer">
-                <h1>TIMER</h1>
-            </div>
-            <div id="stop-watch">
-                <h1>STOPWATCH</h1>
-            </div>
+            <ul>
+              <li id="timer-text">
+                <a onclick="timer_display()" href="javascript:void(0)">TIMER</a>
+              </li>
+              <li id="stopwatch-text">
+                <a onclick="stopwatch_display()" href="javascript:void(0)">STOPWATCH</a>
+              </li>
+            </ul>
         </div>
 
         <div id="display">
@@ -34,8 +36,8 @@
         </div>
 
         <div id="buttons">
-            <button class="btn btn-primary" id="start">START</button>
-            <button class="btn btn-light" id="reset">RESET</button>
+            <button onclick="start()" class="btn btn-primary" id="start">START</button>
+            <button onclick="reset()" class="btn btn-light" id="reset">RESET</button>
         </div>
     </div>
   </main>
