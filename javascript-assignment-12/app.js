@@ -2,11 +2,11 @@
 function submit_data()
 {
     event.preventDefault()
-    var name = document.getElementById("name").value
-    var email = document.getElementById("email").value
-    var number = document.getElementById("number").value
-    var password = document.getElementById("password").value
-    var confirm_password = document.getElementById("confirm_password").value
+    const name = document.getElementById("name").value
+    const email = document.getElementById("email").value
+    const number = document.getElementById("number").value
+    const password = document.getElementById("password").value
+    const confirm_password = document.getElementById("confirm_password").value
     
     if (name === "")
     {
@@ -14,7 +14,7 @@ function submit_data()
         (
             {
                 title: 'Error',
-                text: 'Please Enter Name',
+                text: 'Please enter valid name',
                 icon: 'error'
             }
         )
@@ -26,7 +26,7 @@ function submit_data()
         (
             {
                 title: 'Error',
-                text: 'Please Enter Email',
+                text: 'Please enter valid email',
                 icon: 'error'
             }
         )
@@ -38,7 +38,7 @@ function submit_data()
         (
             {
                 title: 'Error',
-                text: 'Please Enter Number',
+                text: 'Please enter valid number',
                 icon: 'error'
             }
         )
@@ -50,7 +50,7 @@ function submit_data()
         (
             {
                 title: 'Error',
-                text: 'Please Enter Password',
+                text: 'Please enter valid password',
                 icon: 'error'
             }
         )
@@ -91,17 +91,7 @@ function submit_data()
         localStorage.setItem("userdata", JSON.stringify(userData))
 
         setTimeout(()=>{
-            window.location.href = "./dashboard.html"
+            window.location.href = "./login.html"
         }, 2000)
     }
 }
-
-function dashboard(){
-    var getUserData = JSON.parse(localStorage.getItem("userdata"))
-    var dashboard = document.getElementById("dashboard")
-    dashboard.innerHTML = `
-    <h1 id="welcome">Welcome ${getUserData.name}</h1>
-    `
-}
-
-dashboard()
