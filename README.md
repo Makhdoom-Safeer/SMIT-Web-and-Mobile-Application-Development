@@ -11,4 +11,4 @@ https://makhdoom-safeer.netlify.app/javascript-assignment-4/
 # SMIT Web & Mobile Application Development
 All assignments done for SMIT's Web & Mobile Application Development program:
 
-https://makhdoom-safeer.netlify.app/
+https://smit-makhdoom-safeer.netlify.app/
